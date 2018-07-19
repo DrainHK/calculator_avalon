@@ -1,0 +1,17 @@
+{
+  "name": "testava",
+  "version": "1.0.0",
+  "description": "learn-avalon2",
+  "main": "avalon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "avalon"
+  ],
+  "author": "drainhk",
+  "license": "ISC",
+  "dependencies": {
+    "avalon2": "^2.2.9"
+  }
+}

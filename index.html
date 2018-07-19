@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo-calculator-avalon</title>
+    <link rel="stylesheet" href="css/calculator.css">
+    <script src="js/avalon.js"></script>
+    <script src="js/calculator.js"></script>
+</head>
+<body :controller="calculator">
+    <div :class="[@cName,(@toggle?'':'color-red')]">
+        <div class="cal-top">
+            <input :duplex="@figure" type="text" :class="[@toggle && 'color-red']" disabled>
+        </div>
+        <div class="cal-bottom">
+            <ul>
+                <li :click="@btnClick(ele)" :for="($index,ele) in @arr" :active="@color" :css="@obj" :attr="@titleObj" data-for-rendered="@callBack('xxx',$event)" >{{ele}}</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
