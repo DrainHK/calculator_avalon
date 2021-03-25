@@ -1,5 +1,5 @@
 # calculator for avalon
-A simple calculator component, which based on avalon 2.2.9
+A simple calculator component, which is based on avalon 2.2.9
 
 ## How to use
 
