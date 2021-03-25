@@ -1,5 +1,5 @@
 # calculator for avalon
-A simple calculator function, use avalon framework that will help you to study it easily.
+A simple calculator component, which based on avalon.
 
 ## How to use
 
